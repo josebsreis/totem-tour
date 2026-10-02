@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en" data-tour-embed>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Totem Builders</title>
+  <meta property="og:title" content="Totem Builders">
+  <meta property="og:type" content="website">
+  <!-- Written by Tour Studio. Editing this file is fine, but a re-export
+       overwrites it — change the tour in the app instead. -->
+  <meta name="generator" content="Tour Studio workspace · player 0.0.0 · schema 3">
+  <link rel="stylesheet" href="./player/player.css">
+  <style>
+    /* The page itself must not scroll. height:100% alone does not stop it on
+       a phone: the browser's own chrome grows and shrinks the visual viewport,
+       so the document ends up taller than the window and a drag that starts on
+       a control — or anywhere the viewer does not claim — slides the whole tour
+       up and reveals the background behind it. overflow:hidden on both
+       elements plus a fixed root removes the scroll container entirely, which
+       is also why the fixed bottom bar stays put. */
+    html, body {
+      margin: 0; height: 100%; overflow: hidden;
+      background: #0b0d10; overscroll-behavior: none;
+    }
+    #tour { position: fixed; inset: 0; }
+  </style>
+  <style>
+:root {
+  --tb-glass: rgba(18, 18, 20, 0.62);
+  --tb-glass-hi: rgba(255, 255, 255, 0.10);
+  --tb-line: rgba(255, 255, 255, 0.16);
+  --tb-text: #ffffff;
+  --tb-muted: rgba(255, 255, 255, 0.72);
+  --tb-accent: #e7b46a;
+  --tb-accent-ink: #1b1408;
+  --tb-radius: 999px;
+  --tb-font: "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.tour-skin { font-family: var(--tb-font); color: var(--tb-text); }
+
+.tb-bar {
+  position: absolute;
+  left: 50%;
+  bottom: max(20px, env(safe-area-inset-bottom));
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: calc(100vw - 32px);
+  padding: 8px;
+  background: var(--tb-glass);
+  border: 1px solid var(--tb-line);
+  border-radius: var(--tb-radius);
+  backdrop-filter: blur(14px) saturate(1.2);
+  -webkit-backdrop-filter: blur(14px) saturate(1.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  pointer-events: auto;
+}
+
+.tb-btn {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 56px;
+  padding: 0 22px;
+  border: 0;
+  border-radius: var(--tb-radius);
+  background: var(--tb-glass-hi);
+  color: var(--tb-text);
+  font: 600 18px/1 var(--tb-font);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background .15s, transform .1s;
+}
+.tb-btn:hover { background: rgba(255, 255, 255, 0.2); }
+.tb-btn:active { transform: scale(.97); }
+.tb-btn:focus-visible { outline: 3px solid var(--tb-accent); outline-offset: 2px; }
+.tb-btn svg { width: 22px; height: 22px; flex: none; }
+
+@media (max-width: 640px) {
+  .tb-bar { bottom: 16px; gap: 6px; padding: 6px; }
+  .tb-btn { min-height: 52px; padding: 0 16px; font-size: 16px; }
+  .tb-btn .tb-label { display: none; }
+}
+
+.tb-crumbs { display: flex; align-items: center; gap: 4px; min-width: 0; overflow: hidden; }
+.tb-crumb {
+  display: inline-flex; align-items: center; gap: 8px;
+  min-height: 48px; padding: 0 16px;
+  border-radius: 999px;
+  color: var(--tb-muted); text-decoration: none;
+  font: 500 16px/1 var(--tb-font); white-space: nowrap;
+  transition: background .15s, color .15s;
+}
+.tb-crumb:hover { color: var(--tb-text); background: rgba(255, 255, 255, 0.08); }
+.tb-dot { width: 10px; height: 10px; border-radius: 50%; border: 2px solid currentColor; flex: none; }
+.tb-crumb[data-tour-current] { background: var(--tb-accent); color: var(--tb-accent-ink); font-weight: 700; }
+.tb-crumb[data-tour-current] .tb-dot { background: currentColor; }
+@media (max-width: 900px) {
+  .tb-crumb { padding: 0 12px; }
+  .tb-crumb .tb-crumb-name { display: none; }
+  .tb-crumb[data-tour-current] .tb-crumb-name { display: inline; }
+}
+@media (max-width: 640px) {
+  .tb-crumb { min-height: 44px; padding: 0 10px; font-size: 15px; }
+}
+  </style>
+</head>
+<body>
+  <div id="tour">
+    <div class="tour-skin"><div class="tb-bar">
+  
+
+<button class="tb-btn tb-prev" type="button" aria-label="Previous view"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg><span class="tb-label">Previous</span></button>
+<script>
+(function () {
+  var skin = document.currentScript.closest('.tour-skin'); if (!skin) return;
+  var btn = skin.querySelector('.tb-prev'); if (!btn) return;
+  btn.addEventListener('click', function () {
+    var items = [].slice.call(skin.querySelectorAll('.tb-crumbs [data-tour-scene]')); if (!items.length) return;
+    var i = items.findIndex(function (el) { return el.hasAttribute('data-tour-current'); });
+    items[((i < 0 ? 0 : i) - 1 + items.length) % items.length].click();
+  });
+})();
+</script>
+
+
+  
+
+<nav class="tb-crumbs" aria-label="Views" data-tour-scenes><a class="tb-crumb" href="#"><span class="tb-dot"></span><span class="tb-crumb-name" data-tour-field="name"></span></a></nav>
+
+
+  
+
+<button class="tb-btn tb-next" type="button" aria-label="Next view"><span class="tb-label">Next</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg></button>
+<script>
+(function () {
+  var skin = document.currentScript.closest('.tour-skin'); if (!skin) return;
+  var btn = skin.querySelector('.tb-next'); if (!btn) return;
+  btn.addEventListener('click', function () {
+    var items = [].slice.call(skin.querySelectorAll('.tb-crumbs [data-tour-scene]')); if (!items.length) return;
+    var i = items.findIndex(function (el) { return el.hasAttribute('data-tour-current'); });
+    items[((i < 0 ? -1 : i) + 1) % items.length].click();
+  });
+})();
+</script>
+
+
+</div></div>
+  </div>
+  <noscript>
+    <p style="color:#f2f4f7;font:14px system-ui;padding:2rem;text-align:center">
+      This virtual tour needs JavaScript to run.
+    </p>
+  </noscript>
+  <script type="application/json" id="tour-doc">{"schema":3,"id":"tour-e39c2901","title":"Totem Builders","locales":{"default":"en","available":["en"]},"theme":{"accent":"#3b82f6","panelBg":"#111111","radius":"12px"},"tooltipStyle":{"background":"#1a1d24","backgroundOpacity":0.96,"textColor":"#ffffff","fontSize":13,"padding":8,"radius":6},"assets":[],"variables":[],"scenes":[{"id":"scene-3222844d","name":"View 1","projection":"equirect","source":{"kind":"single","src":"panos/view-1-mono.jpg"},"initialView":{"yaw":0,"pitch":0},"stereo":{"src":"panos/View 1.jpg","layout":"top-bottom"},"layers":[{"id":"layer-159c4fe7","name":"Hotspots","visible":true,"locked":false,"hotspots":[]}]},{"id":"scene-75dfc997","name":"View 2","projection":"equirect","source":{"kind":"single","src":"panos/view-2-mono.jpg"},"initialView":{"yaw":0,"pitch":0},"stereo":{"src":"panos/View 2 .jpg","layout":"top-bottom"},"layers":[{"id":"layer-ba4202b2","name":"Hotspots","visible":true,"locked":false,"hotspots":[]}]},{"id":"scene-dfbc68f5","name":"View 3","projection":"equirect","source":{"kind":"single","src":"panos/view-3-mono.jpg"},"initialView":{"yaw":0,"pitch":0},"stereo":{"src":"panos/View 3.jpg","layout":"top-bottom"},"layers":[{"id":"layer-c5729f5e","name":"Hotspots","visible":true,"locked":false,"hotspots":[]}]},{"id":"scene-45d3ccbc","name":"View 4","projection":"equirect","source":{"kind":"single","src":"panos/view-4-mono.jpg"},"initialView":{"yaw":0,"pitch":0},"stereo":{"src":"panos/View 4.jpg","layout":"top-bottom"},"layers":[{"id":"layer-6a3fb621","name":"Hotspots","visible":true,"locked":false,"hotspots":[]}]}],"skin":{"html":"\u003cdiv class=\"tb-bar\">\n  \n\n\u003cbutton class=\"tb-btn tb-prev\" type=\"button\" aria-label=\"Previous view\">\u003csvg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\u003cpath d=\"M15 5l-7 7 7 7\"/>\u003c/svg>\u003cspan class=\"tb-label\">Previous\u003c/span>\u003c/button>\n\u003cscript>\n(function () {\n  var skin = document.currentScript.closest('.tour-skin'); if (!skin) return;\n  var btn = skin.querySelector('.tb-prev'); if (!btn) return;\n  btn.addEventListener('click', function () {\n    var items = [].slice.call(skin.querySelectorAll('.tb-crumbs [data-tour-scene]')); if (!items.length) return;\n    var i = items.findIndex(function (el) { return el.hasAttribute('data-tour-current'); });\n    items[((i \u003c 0 ? 0 : i) - 1 + items.length) % items.length].click();\n  });\n})();\n\u003c/script>\n\n\n  \n\n\u003cnav class=\"tb-crumbs\" aria-label=\"Views\" data-tour-scenes>\u003ca class=\"tb-crumb\" href=\"#\">\u003cspan class=\"tb-dot\">\u003c/span>\u003cspan class=\"tb-crumb-name\" data-tour-field=\"name\">\u003c/span>\u003c/a>\u003c/nav>\n\n\n  \n\n\u003cbutton class=\"tb-btn tb-next\" type=\"button\" aria-label=\"Next view\">\u003cspan class=\"tb-label\">Next\u003c/span>\u003csvg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\u003cpath d=\"M9 5l7 7-7 7\"/>\u003c/svg>\u003c/button>\n\u003cscript>\n(function () {\n  var skin = document.currentScript.closest('.tour-skin'); if (!skin) return;\n  var btn = skin.querySelector('.tb-next'); if (!btn) return;\n  btn.addEventListener('click', function () {\n    var items = [].slice.call(skin.querySelectorAll('.tb-crumbs [data-tour-scene]')); if (!items.length) return;\n    var i = items.findIndex(function (el) { return el.hasAttribute('data-tour-current'); });\n    items[((i \u003c 0 ? -1 : i) + 1) % items.length].click();\n  });\n})();\n\u003c/script>\n\n\n\u003c/div>","css":":root {\n  --tb-glass: rgba(18, 18, 20, 0.62);\n  --tb-glass-hi: rgba(255, 255, 255, 0.10);\n  --tb-line: rgba(255, 255, 255, 0.16);\n  --tb-text: #ffffff;\n  --tb-muted: rgba(255, 255, 255, 0.72);\n  --tb-accent: #e7b46a;\n  --tb-accent-ink: #1b1408;\n  --tb-radius: 999px;\n  --tb-font: \"Segoe UI\", system-ui, -apple-system, Roboto, \"Helvetica Neue\", Arial, sans-serif;\n}\n\n.tour-skin { font-family: var(--tb-font); color: var(--tb-text); }\n\n.tb-bar {\n  position: absolute;\n  left: 50%;\n  bottom: max(20px, env(safe-area-inset-bottom));\n  transform: translateX(-50%);\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  max-width: calc(100vw - 32px);\n  padding: 8px;\n  background: var(--tb-glass);\n  border: 1px solid var(--tb-line);\n  border-radius: var(--tb-radius);\n  backdrop-filter: blur(14px) saturate(1.2);\n  -webkit-backdrop-filter: blur(14px) saturate(1.2);\n  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);\n  pointer-events: auto;\n}\n\n.tb-btn {\n  appearance: none;\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  min-height: 56px;\n  padding: 0 22px;\n  border: 0;\n  border-radius: var(--tb-radius);\n  background: var(--tb-glass-hi);\n  color: var(--tb-text);\n  font: 600 18px/1 var(--tb-font);\n  cursor: pointer;\n  white-space: nowrap;\n  transition: background .15s, transform .1s;\n}\n.tb-btn:hover { background: rgba(255, 255, 255, 0.2); }\n.tb-btn:active { transform: scale(.97); }\n.tb-btn:focus-visible { outline: 3px solid var(--tb-accent); outline-offset: 2px; }\n.tb-btn svg { width: 22px; height: 22px; flex: none; }\n\n@media (max-width: 640px) {\n  .tb-bar { bottom: 16px; gap: 6px; padding: 6px; }\n  .tb-btn { min-height: 52px; padding: 0 16px; font-size: 16px; }\n  .tb-btn .tb-label { display: none; }\n}\n\n.tb-crumbs { display: flex; align-items: center; gap: 4px; min-width: 0; overflow: hidden; }\n.tb-crumb {\n  display: inline-flex; align-items: center; gap: 8px;\n  min-height: 48px; padding: 0 16px;\n  border-radius: 999px;\n  color: var(--tb-muted); text-decoration: none;\n  font: 500 16px/1 var(--tb-font); white-space: nowrap;\n  transition: background .15s, color .15s;\n}\n.tb-crumb:hover { color: var(--tb-text); background: rgba(255, 255, 255, 0.08); }\n.tb-dot { width: 10px; height: 10px; border-radius: 50%; border: 2px solid currentColor; flex: none; }\n.tb-crumb[data-tour-current] { background: var(--tb-accent); color: var(--tb-accent-ink); font-weight: 700; }\n.tb-crumb[data-tour-current] .tb-dot { background: currentColor; }\n@media (max-width: 900px) {\n  .tb-crumb { padding: 0 12px; }\n  .tb-crumb .tb-crumb-name { display: none; }\n  .tb-crumb[data-tour-current] .tb-crumb-name { display: inline; }\n}\n@media (max-width: 640px) {\n  .tb-crumb { min-height: 44px; padding: 0 10px; font-size: 15px; }\n}"},"runtime":{"autoRotate":{"enabled":false,"speed":0.5,"idleDelayMs":4000},"audio":{"muted":false},"vr":true}}</script>
+  <script src="./player/player.js"></script>
+</body>
+</html>

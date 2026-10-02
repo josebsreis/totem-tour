@@ -1,0 +1,32 @@
+{
+  "kind": "tour-studio-export",
+  "tourTitle": "Totem Builders",
+  "schema": 3,
+  "playerVersion": "0.0.0",
+  "appVersion": "workspace",
+  "exportedAt": "2026-10-02T14:47:37.416Z",
+  "files": [
+    "embed.html",
+    "index.html",
+    "panos/View 1.jpg",
+    "panos/View 2 .jpg",
+    "panos/View 3.jpg",
+    "panos/View 4.jpg",
+    "panos/view-1-mono.jpg",
+    "panos/view-2-mono.jpg",
+    "panos/view-3-mono.jpg",
+    "panos/view-4-mono.jpg",
+    "player/fonts/f-0da2d17e73.woff2",
+    "player/fonts/f-179f97ec02.woff2",
+    "player/fonts/f-430012e873.woff2",
+    "player/fonts/f-9f9cec8167.woff2",
+    "player/fonts/f-ac6d71b4d5.woff2",
+    "player/fonts/f-ada73f9a5d.woff2",
+    "player/fonts/f-cb726212d5.woff2",
+    "player/fonts/f-f11d729bb0.woff2",
+    "player/fonts/f-fb422d2fac.woff2",
+    "player/player.css",
+    "player/player.js",
+    "tour.json"
+  ]
+}

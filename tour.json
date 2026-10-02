@@ -1,0 +1,147 @@
+{
+  "schema": 3,
+  "id": "tour-e39c2901",
+  "title": "Totem Builders",
+  "locales": {
+    "default": "en",
+    "available": [
+      "en"
+    ]
+  },
+  "theme": {
+    "accent": "#3b82f6",
+    "panelBg": "#111111",
+    "radius": "12px"
+  },
+  "tooltipStyle": {
+    "background": "#1a1d24",
+    "backgroundOpacity": 0.96,
+    "textColor": "#ffffff",
+    "fontSize": 13,
+    "padding": 8,
+    "radius": 6
+  },
+  "assets": [],
+  "variables": [],
+  "scenes": [
+    {
+      "id": "scene-3222844d",
+      "name": "View 1",
+      "projection": "equirect",
+      "source": {
+        "kind": "single",
+        "src": "panos/view-1-mono.jpg"
+      },
+      "initialView": {
+        "yaw": 0,
+        "pitch": 0
+      },
+      "stereo": {
+        "src": "panos/View 1.jpg",
+        "layout": "top-bottom"
+      },
+      "layers": [
+        {
+          "id": "layer-159c4fe7",
+          "name": "Hotspots",
+          "visible": true,
+          "locked": false,
+          "hotspots": []
+        }
+      ]
+    },
+    {
+      "id": "scene-75dfc997",
+      "name": "View 2",
+      "projection": "equirect",
+      "source": {
+        "kind": "single",
+        "src": "panos/view-2-mono.jpg"
+      },
+      "initialView": {
+        "yaw": 0,
+        "pitch": 0
+      },
+      "stereo": {
+        "src": "panos/View 2 .jpg",
+        "layout": "top-bottom"
+      },
+      "layers": [
+        {
+          "id": "layer-ba4202b2",
+          "name": "Hotspots",
+          "visible": true,
+          "locked": false,
+          "hotspots": []
+        }
+      ]
+    },
+    {
+      "id": "scene-dfbc68f5",
+      "name": "View 3",
+      "projection": "equirect",
+      "source": {
+        "kind": "single",
+        "src": "panos/view-3-mono.jpg"
+      },
+      "initialView": {
+        "yaw": 0,
+        "pitch": 0
+      },
+      "stereo": {
+        "src": "panos/View 3.jpg",
+        "layout": "top-bottom"
+      },
+      "layers": [
+        {
+          "id": "layer-c5729f5e",
+          "name": "Hotspots",
+          "visible": true,
+          "locked": false,
+          "hotspots": []
+        }
+      ]
+    },
+    {
+      "id": "scene-45d3ccbc",
+      "name": "View 4",
+      "projection": "equirect",
+      "source": {
+        "kind": "single",
+        "src": "panos/view-4-mono.jpg"
+      },
+      "initialView": {
+        "yaw": 0,
+        "pitch": 0
+      },
+      "stereo": {
+        "src": "panos/View 4.jpg",
+        "layout": "top-bottom"
+      },
+      "layers": [
+        {
+          "id": "layer-6a3fb621",
+          "name": "Hotspots",
+          "visible": true,
+          "locked": false,
+          "hotspots": []
+        }
+      ]
+    }
+  ],
+  "skin": {
+    "html": "<div class=\"tb-bar\">\n  \n\n<button class=\"tb-btn tb-prev\" type=\"button\" aria-label=\"Previous view\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M15 5l-7 7 7 7\"/></svg><span class=\"tb-label\">Previous</span></button>\n<script>\n(function () {\n  var skin = document.currentScript.closest('.tour-skin'); if (!skin) return;\n  var btn = skin.querySelector('.tb-prev'); if (!btn) return;\n  btn.addEventListener('click', function () {\n    var items = [].slice.call(skin.querySelectorAll('.tb-crumbs [data-tour-scene]')); if (!items.length) return;\n    var i = items.findIndex(function (el) { return el.hasAttribute('data-tour-current'); });\n    items[((i < 0 ? 0 : i) - 1 + items.length) % items.length].click();\n  });\n})();\n</script>\n\n\n  \n\n<nav class=\"tb-crumbs\" aria-label=\"Views\" data-tour-scenes><a class=\"tb-crumb\" href=\"#\"><span class=\"tb-dot\"></span><span class=\"tb-crumb-name\" data-tour-field=\"name\"></span></a></nav>\n\n\n  \n\n<button class=\"tb-btn tb-next\" type=\"button\" aria-label=\"Next view\"><span class=\"tb-label\">Next</span><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 5l7 7-7 7\"/></svg></button>\n<script>\n(function () {\n  var skin = document.currentScript.closest('.tour-skin'); if (!skin) return;\n  var btn = skin.querySelector('.tb-next'); if (!btn) return;\n  btn.addEventListener('click', function () {\n    var items = [].slice.call(skin.querySelectorAll('.tb-crumbs [data-tour-scene]')); if (!items.length) return;\n    var i = items.findIndex(function (el) { return el.hasAttribute('data-tour-current'); });\n    items[((i < 0 ? -1 : i) + 1) % items.length].click();\n  });\n})();\n</script>\n\n\n</div>",
+    "css": ":root {\n  --tb-glass: rgba(18, 18, 20, 0.62);\n  --tb-glass-hi: rgba(255, 255, 255, 0.10);\n  --tb-line: rgba(255, 255, 255, 0.16);\n  --tb-text: #ffffff;\n  --tb-muted: rgba(255, 255, 255, 0.72);\n  --tb-accent: #e7b46a;\n  --tb-accent-ink: #1b1408;\n  --tb-radius: 999px;\n  --tb-font: \"Segoe UI\", system-ui, -apple-system, Roboto, \"Helvetica Neue\", Arial, sans-serif;\n}\n\n.tour-skin { font-family: var(--tb-font); color: var(--tb-text); }\n\n.tb-bar {\n  position: absolute;\n  left: 50%;\n  bottom: max(20px, env(safe-area-inset-bottom));\n  transform: translateX(-50%);\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  max-width: calc(100vw - 32px);\n  padding: 8px;\n  background: var(--tb-glass);\n  border: 1px solid var(--tb-line);\n  border-radius: var(--tb-radius);\n  backdrop-filter: blur(14px) saturate(1.2);\n  -webkit-backdrop-filter: blur(14px) saturate(1.2);\n  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);\n  pointer-events: auto;\n}\n\n.tb-btn {\n  appearance: none;\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  min-height: 56px;\n  padding: 0 22px;\n  border: 0;\n  border-radius: var(--tb-radius);\n  background: var(--tb-glass-hi);\n  color: var(--tb-text);\n  font: 600 18px/1 var(--tb-font);\n  cursor: pointer;\n  white-space: nowrap;\n  transition: background .15s, transform .1s;\n}\n.tb-btn:hover { background: rgba(255, 255, 255, 0.2); }\n.tb-btn:active { transform: scale(.97); }\n.tb-btn:focus-visible { outline: 3px solid var(--tb-accent); outline-offset: 2px; }\n.tb-btn svg { width: 22px; height: 22px; flex: none; }\n\n@media (max-width: 640px) {\n  .tb-bar { bottom: 16px; gap: 6px; padding: 6px; }\n  .tb-btn { min-height: 52px; padding: 0 16px; font-size: 16px; }\n  .tb-btn .tb-label { display: none; }\n}\n\n.tb-crumbs { display: flex; align-items: center; gap: 4px; min-width: 0; overflow: hidden; }\n.tb-crumb {\n  display: inline-flex; align-items: center; gap: 8px;\n  min-height: 48px; padding: 0 16px;\n  border-radius: 999px;\n  color: var(--tb-muted); text-decoration: none;\n  font: 500 16px/1 var(--tb-font); white-space: nowrap;\n  transition: background .15s, color .15s;\n}\n.tb-crumb:hover { color: var(--tb-text); background: rgba(255, 255, 255, 0.08); }\n.tb-dot { width: 10px; height: 10px; border-radius: 50%; border: 2px solid currentColor; flex: none; }\n.tb-crumb[data-tour-current] { background: var(--tb-accent); color: var(--tb-accent-ink); font-weight: 700; }\n.tb-crumb[data-tour-current] .tb-dot { background: currentColor; }\n@media (max-width: 900px) {\n  .tb-crumb { padding: 0 12px; }\n  .tb-crumb .tb-crumb-name { display: none; }\n  .tb-crumb[data-tour-current] .tb-crumb-name { display: inline; }\n}\n@media (max-width: 640px) {\n  .tb-crumb { min-height: 44px; padding: 0 10px; font-size: 15px; }\n}"
+  },
+  "runtime": {
+    "autoRotate": {
+      "enabled": false,
+      "speed": 0.5,
+      "idleDelayMs": 4000
+    },
+    "audio": {
+      "muted": false
+    },
+    "vr": true
+  }
+}
