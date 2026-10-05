@@ -44,7 +44,7 @@
         "layout": "top-bottom"
       },
       "vrRoom": {
-        "radius": 3,
+        "radius": 5,
         "eyeHeight": 1.4
       },
       "layers": [
@@ -76,7 +76,7 @@
         "layout": "top-bottom"
       },
       "vrRoom": {
-        "radius": 2.5,
+        "radius": 5,
         "eyeHeight": 1.4
       },
       "layers": [
@@ -108,7 +108,7 @@
         "layout": "top-bottom"
       },
       "vrRoom": {
-        "radius": 8,
+        "radius": 5,
         "eyeHeight": 1.4
       },
       "layers": [
