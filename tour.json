@@ -43,10 +43,6 @@
         "src": "panos/final/View 1 - Office room - D01.jpg",
         "layout": "top-bottom"
       },
-      "vrRoom": {
-        "radius": 5,
-        "eyeHeight": 1.4
-      },
       "layers": [
         {
           "id": "layer-159c4fe7",
@@ -74,10 +70,6 @@
       "stereo": {
         "src": "panos/final/View 2 - Hallway - D01.jpg",
         "layout": "top-bottom"
-      },
-      "vrRoom": {
-        "radius": 5,
-        "eyeHeight": 1.4
       },
       "layers": [
         {
@@ -107,10 +99,6 @@
         "src": "panos/final/View 3 - Training room - D01.jpg",
         "layout": "top-bottom"
       },
-      "vrRoom": {
-        "radius": 5,
-        "eyeHeight": 1.4
-      },
       "layers": [
         {
           "id": "layer-c5729f5e",
@@ -138,10 +126,6 @@
       "stereo": {
         "src": "panos/final/View 4 - Waiting room - D01.jpg",
         "layout": "top-bottom"
-      },
-      "vrRoom": {
-        "radius": 5,
-        "eyeHeight": 1.4
       },
       "layers": [
         {
