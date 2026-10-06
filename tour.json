@@ -30,10 +30,12 @@
       "name": "Office room",
       "projection": "equirect",
       "source": {
-        "kind": "single",
-        "src": "panos/final-web/office-room.jpg",
+        "kind": "tiled",
+        "dir": "tiles/office-room-jpg",
         "width": 6000,
-        "height": 3000
+        "cols": 8,
+        "rows": 4,
+        "format": "jpg"
       },
       "initialView": {
         "yaw": 0,
@@ -58,10 +60,12 @@
       "name": "Hallway",
       "projection": "equirect",
       "source": {
-        "kind": "single",
-        "src": "panos/final-web/hallway.jpg",
+        "kind": "tiled",
+        "dir": "tiles/hallway-jpg",
         "width": 6000,
-        "height": 3000
+        "cols": 8,
+        "rows": 4,
+        "format": "jpg"
       },
       "initialView": {
         "yaw": 0,
@@ -86,10 +90,12 @@
       "name": "Training room",
       "projection": "equirect",
       "source": {
-        "kind": "single",
-        "src": "panos/final-web/training-room.jpg",
+        "kind": "tiled",
+        "dir": "tiles/training-room-jpg",
         "width": 6000,
-        "height": 3000
+        "cols": 8,
+        "rows": 4,
+        "format": "jpg"
       },
       "initialView": {
         "yaw": 0,
@@ -114,10 +120,12 @@
       "name": "Waiting room",
       "projection": "equirect",
       "source": {
-        "kind": "single",
-        "src": "panos/final-web/waiting-room.jpg",
+        "kind": "tiled",
+        "dir": "tiles/waiting-room-jpg",
         "width": 6000,
-        "height": 3000
+        "cols": 8,
+        "rows": 4,
+        "format": "jpg"
       },
       "initialView": {
         "yaw": 0,
