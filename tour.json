@@ -31,7 +31,7 @@
       "projection": "equirect",
       "source": {
         "kind": "tiled",
-        "dir": "tiles/office-room-jpg",
+        "dir": "tiles/office-room-eadd4c4e",
         "width": 6000,
         "cols": 8,
         "rows": 4,
@@ -43,7 +43,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "tiles/office-room-stereo",
+        "src": "tiles/view-1-office-room-d01-stereo-4c598457",
         "layout": "top-bottom"
       },
       "layers": [
@@ -62,7 +62,7 @@
       "projection": "equirect",
       "source": {
         "kind": "tiled",
-        "dir": "tiles/hallway-jpg",
+        "dir": "tiles/hallway-654b8780",
         "width": 6000,
         "cols": 8,
         "rows": 4,
@@ -74,7 +74,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "tiles/hallway-stereo",
+        "src": "tiles/view-2-hallway-d01-stereo-f96af019",
         "layout": "top-bottom"
       },
       "layers": [
@@ -93,7 +93,7 @@
       "projection": "equirect",
       "source": {
         "kind": "tiled",
-        "dir": "tiles/training-room-jpg",
+        "dir": "tiles/training-room-4356be27",
         "width": 6000,
         "cols": 8,
         "rows": 4,
@@ -105,7 +105,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "tiles/training-room-stereo",
+        "src": "tiles/view-3-training-room-d01-stereo-84c74182",
         "layout": "top-bottom"
       },
       "layers": [
@@ -124,7 +124,7 @@
       "projection": "equirect",
       "source": {
         "kind": "tiled",
-        "dir": "tiles/waiting-room-jpg",
+        "dir": "tiles/waiting-room-27cddd15",
         "width": 6000,
         "cols": 8,
         "rows": 4,
@@ -136,7 +136,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "tiles/waiting-room-stereo",
+        "src": "tiles/view-4-waiting-room-d01-stereo-3f90109a",
         "layout": "top-bottom"
       },
       "layers": [
@@ -163,6 +163,13 @@
     "audio": {
       "muted": false
     },
-    "vr": true
+    "vr": true,
+    "tile": true,
+    "tileOptions": {
+      "format": "jpg",
+      "quality": 80,
+      "fullSize": true,
+      "stereo": true
+    }
   }
 }
