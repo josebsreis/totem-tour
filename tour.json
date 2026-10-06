@@ -43,7 +43,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "panos/final/View 1 - Office room - D01.jpg",
+        "src": "tiles/office-room-stereo",
         "layout": "top-bottom"
       },
       "layers": [
@@ -74,7 +74,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "panos/final/View 2 - Hallway - D01.jpg",
+        "src": "tiles/hallway-stereo",
         "layout": "top-bottom"
       },
       "layers": [
@@ -105,7 +105,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "panos/final/View 3 - Training room - D01.jpg",
+        "src": "tiles/training-room-stereo",
         "layout": "top-bottom"
       },
       "layers": [
@@ -136,7 +136,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "panos/final/View 4 - Waiting room - D01.jpg",
+        "src": "tiles/waiting-room-stereo",
         "layout": "top-bottom"
       },
       "layers": [

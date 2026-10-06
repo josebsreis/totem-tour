@@ -1,0 +1,13 @@
+{
+ "layout": "top-bottom",
+ "format": "jpg",
+ "levels": [
+  {
+   "path": "0",
+   "width": 6000,
+   "height": 6000,
+   "cols": 8,
+   "rows": 8
+  }
+ ]
+}
