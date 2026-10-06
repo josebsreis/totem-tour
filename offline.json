@@ -1,6 +1,6 @@
 {
- "version": "3004860b3d11",
- "bytes": 32297037,
+ "version": "51a9a8d17f3a",
+ "bytes": 32297019,
  "files": [
   "embed.html",
   "index.html",
@@ -13,8 +13,8 @@
   "player/fonts/f-cb726212d5.woff2",
   "player/fonts/f-f11d729bb0.woff2",
   "player/fonts/f-fb422d2fac.woff2",
-  "player/player.css?v=684bbe7087",
-  "player/player.js?v=684bbe7087",
+  "player/player.css?v=0f243fd266",
+  "player/player.js?v=0f243fd266",
   "tiles/hallway-jpg/base.jpg",
   "tiles/hallway-jpg/tile_0_0.jpg",
   "tiles/hallway-jpg/tile_0_1.jpg",
