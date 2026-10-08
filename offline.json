@@ -1,6 +1,6 @@
 {
- "version": "1aaf413ccc68",
- "bytes": 49213779,
+ "version": "67653424ddba",
+ "bytes": 49225032,
  "files": [
   "embed.html",
   "index.html",
@@ -13,8 +13,8 @@
   "player/fonts/f-cb726212d5.woff2",
   "player/fonts/f-f11d729bb0.woff2",
   "player/fonts/f-fb422d2fac.woff2",
-  "player/player.css?v=0ef017f100",
-  "player/player.js?v=0ef017f100",
+  "player/player.css?v=139801b0ab",
+  "player/player.js?v=139801b0ab",
   "tiles/ext-01-d01-stereo-a09a0d28/0/0_0.jpg",
   "tiles/ext-01-d01-stereo-a09a0d28/0/0_1.jpg",
   "tiles/ext-01-d01-stereo-a09a0d28/0/0_2.jpg",
