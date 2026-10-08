@@ -155,7 +155,7 @@
       "projection": "equirect",
       "source": {
         "kind": "tiled",
-        "dir": "tiles/exterior-1-c6e0c941",
+        "dir": "tiles/exterior-1-03b0ce4d",
         "width": 6000,
         "cols": 8,
         "rows": 4,
@@ -167,7 +167,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "tiles/ext-01-d01-stereo-a09a0d28",
+        "src": "tiles/ext-01-d02ud-stereo-71a4b64c",
         "layout": "top-bottom"
       },
       "layers": [
@@ -186,7 +186,7 @@
       "projection": "equirect",
       "source": {
         "kind": "tiled",
-        "dir": "tiles/exterior-2-f0d53411",
+        "dir": "tiles/exterior-2-08d81207",
         "width": 6000,
         "cols": 8,
         "rows": 4,
@@ -198,7 +198,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "tiles/ext-02-d02ud-stereo-54a44aff",
+        "src": "tiles/ext-02-d02ud-stereo-abcc243b",
         "layout": "top-bottom"
       },
       "layers": [
