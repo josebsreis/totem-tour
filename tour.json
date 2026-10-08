@@ -31,7 +31,7 @@
       "projection": "equirect",
       "source": {
         "kind": "tiled",
-        "dir": "tiles/office-room-eadd4c4e",
+        "dir": "tiles/office-room-fc208ac8",
         "width": 6000,
         "cols": 8,
         "rows": 4,
@@ -43,7 +43,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "tiles/view-1-office-room-d01-stereo-4c598457",
+        "src": "tiles/view-1-office-d02-stereo-020e8732",
         "layout": "top-bottom"
       },
       "layers": [
@@ -62,7 +62,7 @@
       "projection": "equirect",
       "source": {
         "kind": "tiled",
-        "dir": "tiles/hallway-654b8780",
+        "dir": "tiles/hallway-ce202eff",
         "width": 6000,
         "cols": 8,
         "rows": 4,
@@ -74,7 +74,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "tiles/view-2-hallway-d01-stereo-f96af019",
+        "src": "tiles/view-2-hallway-d02-stereo-2aba40dd",
         "layout": "top-bottom"
       },
       "layers": [
@@ -93,7 +93,7 @@
       "projection": "equirect",
       "source": {
         "kind": "tiled",
-        "dir": "tiles/training-room-4356be27",
+        "dir": "tiles/training-room-904bf2e0",
         "width": 6000,
         "cols": 8,
         "rows": 4,
@@ -105,7 +105,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "tiles/view-3-training-room-d01-stereo-84c74182",
+        "src": "tiles/view-3-training-room-d03-stereo-185d9543",
         "layout": "top-bottom"
       },
       "layers": [
@@ -124,7 +124,7 @@
       "projection": "equirect",
       "source": {
         "kind": "tiled",
-        "dir": "tiles/waiting-room-27cddd15",
+        "dir": "tiles/waiting-room-87067619",
         "width": 6000,
         "cols": 8,
         "rows": 4,
@@ -136,7 +136,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "tiles/view-4-waiting-room-d01-stereo-3f90109a",
+        "src": "tiles/view-4-waiting-room-d03-stereo-f96d46ba",
         "layout": "top-bottom"
       },
       "layers": [
@@ -186,7 +186,7 @@
       "projection": "equirect",
       "source": {
         "kind": "tiled",
-        "dir": "tiles/exterior-2-8de80d5c",
+        "dir": "tiles/exterior-2-f0d53411",
         "width": 6000,
         "cols": 8,
         "rows": 4,
@@ -198,7 +198,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "tiles/ext-02-d01-stereo-aeeca44f",
+        "src": "tiles/ext-02-d02ud-stereo-54a44aff",
         "layout": "top-bottom"
       },
       "layers": [
