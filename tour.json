@@ -27,7 +27,7 @@
   "scenes": [
     {
       "id": "scene-3222844d",
-      "name": "Office room",
+      "name": "Office",
       "projection": "equirect",
       "source": {
         "kind": "tiled",
