@@ -26,12 +26,12 @@
   "variables": [],
   "scenes": [
     {
-      "id": "scene-3222844d",
-      "name": "Office",
+      "id": "scene-45d3ccbc",
+      "name": "Reception",
       "projection": "equirect",
       "source": {
         "kind": "tiled",
-        "dir": "tiles/office-room-fc208ac8",
+        "dir": "tiles/reception-c9c7d03e",
         "width": 6000,
         "cols": 8,
         "rows": 4,
@@ -43,12 +43,12 @@
         "fov": 85
       },
       "stereo": {
-        "src": "tiles/view-1-office-d02-stereo-020e8732",
+        "src": "tiles/1-reception-stereo-b2fd1886",
         "layout": "top-bottom"
       },
       "layers": [
         {
-          "id": "layer-159c4fe7",
+          "id": "layer-6a3fb621",
           "name": "Hotspots",
           "visible": true,
           "locked": false,
@@ -74,7 +74,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "tiles/view-2-hallway-d02-stereo-2aba40dd",
+        "src": "tiles/2-hallway-stereo-4d64f4e9",
         "layout": "top-bottom"
       },
       "layers": [
@@ -89,7 +89,7 @@
     },
     {
       "id": "scene-dfbc68f5",
-      "name": "Training room",
+      "name": "Training Room",
       "projection": "equirect",
       "source": {
         "kind": "tiled",
@@ -105,7 +105,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "tiles/view-3-training-room-d03-stereo-185d9543",
+        "src": "tiles/3-training-room-stereo-4e93791c",
         "layout": "top-bottom"
       },
       "layers": [
@@ -119,12 +119,12 @@
       ]
     },
     {
-      "id": "scene-45d3ccbc",
-      "name": "Waiting room",
+      "id": "scene-3222844d",
+      "name": "Open Work Space",
       "projection": "equirect",
       "source": {
         "kind": "tiled",
-        "dir": "tiles/waiting-room-87067619",
+        "dir": "tiles/open-work-space-63e39e87",
         "width": 6000,
         "cols": 8,
         "rows": 4,
@@ -136,12 +136,12 @@
         "fov": 85
       },
       "stereo": {
-        "src": "tiles/view-4-waiting-room-d03-stereo-f96d46ba",
+        "src": "tiles/4-open-work-space-stereo-f967759b",
         "layout": "top-bottom"
       },
       "layers": [
         {
-          "id": "layer-6a3fb621",
+          "id": "layer-159c4fe7",
           "name": "Hotspots",
           "visible": true,
           "locked": false,
@@ -151,11 +151,11 @@
     },
     {
       "id": "scene-75ecd0a9",
-      "name": "Exterior 1",
+      "name": "North Exterior",
       "projection": "equirect",
       "source": {
         "kind": "tiled",
-        "dir": "tiles/exterior-1-03b0ce4d",
+        "dir": "tiles/north-exterior-6899f9a7",
         "width": 6000,
         "cols": 8,
         "rows": 4,
@@ -167,7 +167,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "tiles/ext-01-d02ud-stereo-71a4b64c",
+        "src": "tiles/5-north-exterior-stereo-e87fb0fb",
         "layout": "top-bottom"
       },
       "layers": [
@@ -182,11 +182,11 @@
     },
     {
       "id": "scene-c0d9712a",
-      "name": "Exterior 2",
+      "name": "East Exterior",
       "projection": "equirect",
       "source": {
         "kind": "tiled",
-        "dir": "tiles/exterior-2-08d81207",
+        "dir": "tiles/east-exterior-0f4d720d",
         "width": 6000,
         "cols": 8,
         "rows": 4,
@@ -198,7 +198,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "tiles/ext-02-d02ud-stereo-abcc243b",
+        "src": "tiles/6-east-exterior-stereo-27df8460",
         "layout": "top-bottom"
       },
       "layers": [
