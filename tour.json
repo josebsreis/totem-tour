@@ -62,7 +62,7 @@
       "projection": "equirect",
       "source": {
         "kind": "tiled",
-        "dir": "tiles/hallway-ce202eff",
+        "dir": "tiles/hallway-e1453203",
         "width": 6000,
         "cols": 8,
         "rows": 4,
@@ -74,7 +74,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "tiles/2-hallway-stereo-4d64f4e9",
+        "src": "tiles/2-hallway-stereo-e17b6314",
         "layout": "top-bottom"
       },
       "layers": [
@@ -124,7 +124,7 @@
       "projection": "equirect",
       "source": {
         "kind": "tiled",
-        "dir": "tiles/open-work-space-63e39e87",
+        "dir": "tiles/open-work-space-c75836b7",
         "width": 6000,
         "cols": 8,
         "rows": 4,
@@ -136,7 +136,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "tiles/4-open-work-space-stereo-f967759b",
+        "src": "tiles/4-open-work-space-stereo-04c8c8e2",
         "layout": "top-bottom"
       },
       "layers": [
@@ -155,7 +155,7 @@
       "projection": "equirect",
       "source": {
         "kind": "tiled",
-        "dir": "tiles/north-exterior-6899f9a7",
+        "dir": "tiles/north-exterior-2f4b2c7e",
         "width": 6000,
         "cols": 8,
         "rows": 4,
@@ -167,7 +167,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "tiles/5-north-exterior-stereo-e87fb0fb",
+        "src": "tiles/5-north-exterior-stereo-05fd3e1c",
         "layout": "top-bottom"
       },
       "layers": [
@@ -186,7 +186,7 @@
       "projection": "equirect",
       "source": {
         "kind": "tiled",
-        "dir": "tiles/east-exterior-0f4d720d",
+        "dir": "tiles/east-exterior-81ff0c48",
         "width": 6000,
         "cols": 8,
         "rows": 4,
@@ -198,7 +198,7 @@
         "fov": 85
       },
       "stereo": {
-        "src": "tiles/6-east-exterior-stereo-27df8460",
+        "src": "tiles/6-east-exterior-stereo-96bedbda",
         "layout": "top-bottom"
       },
       "layers": [
